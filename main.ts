@@ -11,7 +11,7 @@ namespace hueToRGB {
         return basic.rgb(rgb[0], rgb[1], rgb[2]);
     }
 
-    function hslToRgb(h: number, s: number, l: number): number[] {
+    export function hslToRgb(h: number, s: number, l: number): number[] {
         s /= 100;
         l /= 100;
 
